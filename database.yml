@@ -1,0 +1,32 @@
+users:
+  jtbrubak:
+    username: jtbrubak
+    articleIds:
+      - 1
+    commentIds:
+      - 1
+  kabrubak:
+    username: kabrubak
+    articleIds: []
+    commentIds: []
+articles:
+  '1':
+    id: 1
+    title: 9 dead in Toronto attack
+    url: >-
+      https://www.cnn.com/2018/04/23/world/toronto-collision-pedestrians/index.html
+    username: jtbrubak
+    commentIds:
+      - 1
+    upvotedBy: []
+    downvotedBy: []
+nextArticleId: 2
+comments:
+  '1':
+    id: 1
+    body: ':('
+    articleId: '1'
+    username: jtbrubak
+    upvotedBy: []
+    downvotedBy: []
+nextCommentId: 2
